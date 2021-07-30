@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Amiri";
+  src: local("Amiri"),
+    url(src/assets/fonts/ar/Amiri-Regular.ttf) format("truetype");
+}
+
+.container {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+}

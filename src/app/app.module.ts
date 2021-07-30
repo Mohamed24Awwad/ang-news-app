@@ -9,6 +9,8 @@ import { AboutComponent } from './about/about.component';
 import { NewsComponent } from './news/news.component';
 import { ContactComponent } from './contact/contact.component';
 import { Page404Component } from './page404/page404.component';
+import { HttpClientModule } from '@angular/common/http';
+import { NewsapiserviceService } from './service/newsapiservice.service';
 
 
 @NgModule({
@@ -20,15 +22,15 @@ import { Page404Component } from './page404/page404.component';
     NewsComponent,
     ContactComponent,
     Page404Component,
+
       ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule
 
   ],
-  providers:[
-
-  ],
+  providers:[NewsapiserviceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

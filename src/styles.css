@@ -1,5 +1,5 @@
-@font-face {
-  font-family: "Oleo Script";
-  src: local("Oleo Script"),
-    url(src/assets/fonts/OleoScript-Regular.ttf) format("truetype");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
