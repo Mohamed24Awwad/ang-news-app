@@ -23,6 +23,24 @@ ng g c home // component name
 //CI-CD Deployment
 --------------------
 
-1- ng add angular-cli-ghpages
-2- ng build --base-href "https://Mohamed24Awwad/github.com/RepoName/"
-3-
+Here is Step by Step Guide How to Deploy the angular app to Github pages.
+
+1) git init //for initializing git use cmd/shell hit Enter
+
+2)git add . //add all files in git
+
+3)git commit -m "first commit" // message for commit
+
+4)git remote add origin "Your Remote Repository Url" // connecting to git repo
+
+5)git push -u origin master // pushing to git repo
+
+6)npm install -g angular-cli-pages //installing angular pages for deploy Angular project on github pages
+
+7)ng build --prod --base-href="https://Username.github.io/github-Repo/" //production build ghpages
+
+8*)Goto project folder after above steps completed there will be dist folder go inside dist>YOurProjectFolder-> move all files one level up.*
+
+9)angular-cli-ghpages //deploying ghpages
+
+10)goto github repo setting scroll down there will be github pages and link of your publihshed repo click on that and BOOM Angular app is live on ghPages
