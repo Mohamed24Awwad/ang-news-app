@@ -14,11 +14,15 @@ ng s      or ng serve
 
 //to generate a sevice folder and file
 --------------------------------------
-ng g s service/api           
+ng g s service/api
 
 //to generate a component
 -------------------------
-ng g c home // component name 
+ng g c home // component name
 
+//CI-CD Deployment
+--------------------
 
-
+1- ng add angular-cli-ghpages
+2- ng build --base-href "https://Mohamed24Awwad/github.com/RepoName/"
+3-
